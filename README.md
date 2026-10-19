@@ -1,5 +1,5 @@
 Simulated Device Monitoring and Alert System
-Student Name: Aivan James D. Sotto Student Number: 2601288 Section: 1CpE-C
+Student Name: Franzel Tipon Student Number: 2601350 Section: 1CpE-C
 
 Project Description
 This program monitors simulated device temperature readings. It stores the readings in a list, accepts new valid readings, and classifies each one as NORMAL, WARNING, or CRITICAL. It also prints a numerical summary and an overall monitoring status. It was written for CPP102 Week 17 using only Python 3 built-in features.
