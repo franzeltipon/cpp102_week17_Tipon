@@ -35,10 +35,16 @@ Test Cases
 I performed 13 tests (the 10 required tests plus 3 extra). 13 passed and 0 failed. Full details are in test_cases.md.
 
 Known Limitations
-Readings are lost when the program closes, because nothing is saved to a file.
-Readings can only be added, not edited or deleted.
-The 0 to 100 range and the 30 and 35 limits are for this classroom simulation only. They are not real device-safety standards.
+The program does not save readings to a file, so all data is lost when the program closes. Readings can only be added and cannot be edited or deleted. The range of 0 to 100 and the limits of 30 and 35 are used only for this classroom simulation and do not represent real device-safety standards.
+
 Reflection
-In this project I combined lists, loops, selection, and functions into one complete program for the first time. Splitting the work into small functions, with main() controlling the menu loop, made the program easier to understand and test than my earlier single-purpose exercises. The part I found hardest was the input validation order, the boundary tests TC06 and TC07. I tested it with specific values until I understood why it worked. If I continued this project, I would save the readings to a file.
+In this project, I combined lists, loops, selection, and functions to create a complete program for the first time. Dividing the program into smaller functions, with main() controlling the menu loop, made it easier to understand, test, and maintain compared to my earlier single-purpose exercises.
+
+The most challenging part was arranging the input validation correctly, particularly for boundary test cases TC06 and TC07. I tested specific input values to understand how the validation worked and ensure the program behaved as expected.
+
+If I were to continue developing this project, I would add a file-saving feature so that readings could be stored and retrieved even after the program closes.
+
+
+
 
 
